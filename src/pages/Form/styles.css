@@ -1,0 +1,106 @@
+.container {
+  width:  100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 75%;
+  padding: 72px;
+  background: #292931;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content img {
+  height: 96px;
+  margin-bottom: 4px;
+}
+
+.content h1 {
+  font-size: 36px;
+}
+
+.title, .data-hour {
+  margin: 4px 0;
+  color: #fff;
+  text-align: center;
+
+}
+
+.name {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.data-hour p {
+  padding: 2px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.data-hour img {
+  height: 20px;
+  width: 20px;
+}
+
+.date-hour {
+  display: flex;
+  flex-direction: row;
+}
+
+.date {
+  margin-right: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+form input {
+  width: 100%;
+  height: 60px;
+  color: #333;
+  border: 1px solid #dcdce3;
+  border-radius: 8px;
+  padding: 0 24px;
+  font: 400 14px Roboto, sans-serif;
+}
+
+.content form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.content form input {
+  margin-top: 8px;
+}
+
+.button {
+  width: 100%;
+  height: 60px;
+  background: #a90101;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
