@@ -28,7 +28,7 @@ function Form() {
   const [phone, setPhone] = useState('');
 
   const location = useLocation();
-  const [raffle, setRaffle] = useState(queryString.parse(location.search).p_);
+  const [raffle, ] = useState(queryString.parse(location.search).p_);
   const [activeRaffle, setActiveRaffle] = useState(false);
   const [dateRaffle, setDateRaflle] = useState('');
   const [hourRaffle, setHourRaflle] = useState('');
@@ -178,7 +178,7 @@ function Form() {
          * faz a requisição com o corpo serializado
          */
         
-        const { data } = await api.post('/user', queryString.stringify(requestBody), config);
+        await api.post('/user', queryString.stringify(requestBody), config);
 
         /*if (data.message !== "Success") {
           setLoading(false);
