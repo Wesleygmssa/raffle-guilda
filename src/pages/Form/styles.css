@@ -104,3 +104,32 @@ form input {
 .button:hover {
   filter: brightness(90%);
 }
+
+@media(max-width: 415px) {
+  .content {
+    width: 90%;
+  }
+
+  .button {
+    margin-left: -25px;
+    width: 130%;
+    font-size: 14px;
+    height: 40px;
+    line-height: 16px;
+  }
+
+  form input {
+    margin-left: -25px;
+    width: 130%;
+    padding: 10px;
+    height: 40px;
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 12px;
+  }
+
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 12px;
+  }
+}
