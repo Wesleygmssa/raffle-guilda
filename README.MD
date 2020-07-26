@@ -8,7 +8,7 @@ O sorteio será gerencado pelo app mobile, a página é destinada para os jogado
 
 ### Ferramentas utilizadas:
 - ReactJS;
-- Axios (requisiões);
+- Axios (requisições);
 - React Router Dom (gerenciar rotas);
 - Remask (máscaras para input);
 - React Toastify (toast);
