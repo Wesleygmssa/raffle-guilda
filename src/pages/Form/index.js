@@ -46,7 +46,7 @@ function Form() {
        * configura o corpo da requisição
        */
       const requestBody = {
-        token: 'BJBWGUBbfebfe314FBEUBFE',
+        token: '',
         srt_id: raffle,
       };
   
@@ -156,7 +156,7 @@ function Form() {
          * configura o corpo da requisição
          */
         const requestBody = {
-          token: 'BJBWGUBbfebfe314FBEUBFE',
+          token: '',
           usr_nome: username,
           usr_nickname: username,
           usr_telefone: originalValuePhone,
@@ -165,6 +165,7 @@ function Form() {
         };
     
         /**
+
          * configura o cabeçalho da requisição
          */
     
@@ -193,7 +194,7 @@ function Form() {
          * configura o corpo da requisição
          */
         const bodyRequest = {
-          token: 'BJBWGUBbfebfe314FBEUBFE',
+          token: '',
           usr_nickname: username,
         };
     
@@ -239,7 +240,7 @@ function Form() {
          * configura o corpo da requisição
          */
         const body = {
-          token: 'BJBWGUBbfebfe314FBEUBFE',
+          token: '',
           stp_sorteio: raffle,
         };
     
@@ -273,7 +274,7 @@ function Form() {
          * configura o corpo da requisição
          */
         const Reqbody = {
-          token: 'BJBWGUBbfebfe314FBEUBFE',
+          token: '',
           stp_sorteio: raffle,
           stp_user: mapGetIdUser,
         };
