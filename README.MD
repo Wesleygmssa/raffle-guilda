@@ -30,7 +30,7 @@ O sorteio será gerencado pelo app mobile, a página é destinada para os jogado
 ### Telas:
 ![](imgs/telasorteio.png)
 ![](imgs/telasorteio2.png)
-![](imgs/telasorteio3.png)
+![](imgs/telasorteio3.jpeg)
 
 ---
 
